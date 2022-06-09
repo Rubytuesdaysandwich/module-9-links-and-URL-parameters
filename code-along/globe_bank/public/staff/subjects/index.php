@@ -22,13 +22,13 @@
 
   	<table class="list"><!--start table-->
   	  <tr><!--table row-->
-        <th>ID</th>
-        <th>Position</th>
-        <th>Visible</th>
-  	    <th>Name</th>
-  	    <th>&nbsp;</th>
-  	    <th>&nbsp;</th>
-        <th>&nbsp;</th>
+        <th>ID</th><!--table header-->
+        <th>Position</th><!--table header-->
+        <th>Visible</th><!--table header-->
+  	    <th>Name</th><!--table header-->
+  	    <th>&nbsp;</th><!--table header-->
+  	    <th>&nbsp;</th><!--table header-->
+        <th>&nbsp;</th><!--table header-->
   	  </tr><!--end table row-->
 
       <?php foreach($subjects as $subject) { //for each loop takeing subjects array as $subject?>
