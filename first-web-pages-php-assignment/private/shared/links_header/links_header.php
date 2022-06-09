@@ -8,7 +8,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <?php $title=get_title(1);//calling the function from functions.php?>
+        <?php $title=get_title();//calling the function from functions.php?>
         <title><?php echo $title ;//get the title for the page your currently on based on Page id?></title>
     </head>
     <body>
