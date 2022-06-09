@@ -1,7 +1,7 @@
 <?php
 function get_id(){
 
- $page =$_GET['page']??'1';// php 7.0 ?? gives it a default if nothing is given
+ $page =$_GET['page']??'0';// php 7.0 ?? gives it a default if nothing is given
  return $page;//sending the variable outside the function get_id can now be accessed outside of function
 }
 
