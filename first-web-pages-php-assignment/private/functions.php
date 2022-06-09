@@ -6,7 +6,9 @@ function get_id(){
 }
 
 function get_title(){
+ $page = get_id();
    $title= $_GET['title']??'home';// php 7.0 gives it a default if nothing is given
+   return $title;
 }
 
 
